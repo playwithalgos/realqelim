@@ -1,0 +1,120 @@
+/*<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">*/
+body {
+	background: #FFFFFF;
+	font: 14px Verdana;
+}
+
+
+
+B {
+	font: 14px Verdana;
+	font-weight: bold;
+}
+
+A {
+	font-weight: bold;
+	color: #000088;
+	text-decoration: none;
+}
+
+table {
+	border: 0px solid #008800;
+}
+
+
+td {
+	vertical-align: top;
+}
+
+H1 {
+	font: 32px Arial;
+	font-weight: bold;
+	color: black;
+}
+
+H2 {
+	font: 15px Arial;
+	font-weight: bold;
+	color: black;
+}
+
+H3 {
+	font: 14px Arial;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+}
+
+.formula {
+	padding: 8px;
+	margin: 1px 1px 1px 1px;
+	font-family: monospace;
+	font-size: 120%;
+	display: inline-block;
+	font-weight: bold;
+	color: #CC4400;
+	background: #FFDD88;
+	border-radius: 8px;
+}
+
+a.formula {
+	font-family: monospace;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC4400;
+	background: #88FF88;
+	border: 1px solid #000088;
+}
+
+a.formula, .formula a {
+	font-family: monospace;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC4400;
+	background: #88FF88;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+	padding: 8px;
+	border-radius: 8px;
+}
+
+a.formula:hover, .formula a:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+
+}
+.go:before {
+	content:url('misterr.png') 
+}
+
+
+.go {
+	padding: 16px;
+	border-radius: 18px;
+	margin: 64px;
+	background: #88FF88;
+	border: 1px solid #000088;
+	font-size: 16px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+li {
+	margin-bottom: 64px;
+}
+.go:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+footer{
+	margin: 32px;
+}
+
+
+.example {
+	margin: 8px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+.example:before {
+	content: "Example. ";
+	font-weight: bold;
+	margin: 8px;
+}

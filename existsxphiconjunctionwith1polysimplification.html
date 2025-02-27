@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Decreasing degrees of <span class="formula">Q<sub>i</sub></span>span> 's
+        in <span class="formula">&#8707;x &#8712; ]a, b[, P =
+            0 and&nbsp;Q<sub>1 </sub>&gt; 0 and ... Q<sub>k</sub>
+            &gt; 0 </span></h1>
+    <br>
+    <br>
+    We replace it by the following disjonction:<br>
+
+    <ul>
+        <li>
+            <span class="formula">(a = 0 and &#8707;x, (P
+                without ax<sup>n</sup>
+                = 0 and Q<sub>1
+                </sub>&gt; 0 and ... Q<sub>k</sub>
+                &gt; 0))</span>
+
+            <br />
+
+            This part is now simplier because the degree of P
+            without ax<sup>n</sup> is strictly
+            lower than the degree of P. We apply again this step to the new formula.
+        </li>
+
+
+
+
+        <li>
+            or <span class="formula">(a&nbsp;&#8800; 0 and
+            </span><a class="formula" href="existsxphiconjunctionwith1polyconstraints.html"><span>&#8707;x,
+                    (P = 0 and </span>T<sub>1
+                </sub>&gt; 0 and ... T<sub>k</sub>
+                &gt; 0))</a></span>
+
+            <br />
+
+
+            where each <span class="formula">T<sub>i</sub></span> is obtained by the following
+            algorithm:<br><br><span class="formula">T<sub>i</sub></span>
+            := <span class="formula">Q<sub>i</sub></span> <br><br><span
+                style="font-weight: bold;">while</span>(degree(T<sub>i</sub>)&nbsp;&#8805;
+            degree(P))<br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<span class="formula">T<sub>i</sub></span> := <span
+                class="formula">a<sup>2</sup>.T<sub>i</sub> -
+                a.b.P.x<sup>degree(Qi)-degree(P)</sup></span>&nbsp;<br/>&nbsp; &nbsp; where
+            :<ul>
+                <li>P = ax<sup>degree(P)</sup>
+                    +...</li>
+                <li>T<sub>i</sub> = bx<sup>degree(Ti)</sup>
+                    +...</li>
+            </ul>
+            <span style="font-weight: bold;">endWhile</span><br><br>At the end, we have
+            degree<sub>x</sub>(T<sub>i</sub>)
+            &lt;
+            degree<sub>x</sub>(P).<br>
+        </li>
+
+
+    </ul>
+
+
+
+    <div class="example">
+
+        <span class="formula">x + 1 = 0 and x<sup>2</sup>
+            &gt; 0</span>
+        is replaced by <span class="formula">x + 1 = 0 and x<sup>2</sup> -
+            x(x + 1) &gt; 0</span>, that is to say, <span class="formula">x + 1 = 0 and -x &gt; 0</span>.<br />Then
+        <span class="formula">x + 1 = 0 and -x &gt; 0</span> is replaced by <span class="formula">x + 1 = 0 and -x -
+            (-1)(x +
+            1) &gt; 0</span>, that is to say, <span class="formula">x + 1 = 0 and 1 &gt; 0</span>.<br />We can then
+        evaluate <span class="formula">1 &gt; 0</span>, (it is true) and the initial formula is equivalent to <span
+            class="formula">x + 1 = 0</span>.
+
+    </div>
+
+</body>
+
+</html>

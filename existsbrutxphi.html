@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+
+</head>
+
+<body>
+    <h1>Elimination of the quantifier <span class="formula">∃</span>in
+        <span class="formula">∃x, φ</span></h1>
+
+    In
+    order to inherit
+    properties of finite open segment set ]a,b[ where a, b are real numbers, we
+    split the problem of existence of x:<br />
+    <table>
+        <tbody>
+            <tr>
+                <td><span class="formula">∃x,
+                        φ</span> is rewritten </td>
+                <td><span class="formula">∃x,
+                        x &lt; -1, φ <br />
+                        <br />
+                        or φ(x := -1) <br />
+                        <br />
+                        or ∃x &#8712; ]-1,
+                        1[, φ <br />
+                        <br />
+                        or φ(x := 1) or ∃x, x &gt; 1, φ</span>.</td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <br />
+    As the application y &#8594; 1/y is bijective from ]-1, 0[ to ]-&#8734;,
+    -1[ and from ]0, 1[ to ]1, +&#8734;[,<br />
+    <table>
+        <tbody>
+            <tr>
+                <td> <span class="formula">∃x, φ</span> is rewritten </td>
+                <td><span class="formula"><a href="existsxphi.html">∃y &#8712; ]-1, 0[, φ(x := 1/y)</a> <br />
+                        <br />
+                        or φ(x := -1) <br />
+                        <br />
+                        or <a href="existsxphi.html">∃x&#8712; ]-1, 1[, φ</a>
+                        <br />
+                        <br />
+                        or φ(x := 1) <br />
+                        <br />
+                        or <a href="existsxphi.html">∃y &#8712; ]0, 1[, φ(x := 1/y)</a></span>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="Example">
+        By
+        <span class="formula">φ(x := 1/y)</span> we mean
+        that we replace each occurence of <span class="formula">x</span>
+        by <span class="formula">1/y</span>... we then
+        obtain a rational expressions. By multiplying by <span class="formula">y<sup>n</sup></span>,
+        where n is large enough, we obtain polynomial expressions.
+
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><span class="formula">∃x,
+                            x² + 3x + 2 = 0</span> is rewritten </td>
+                    <td><span class="formula">∃y
+                            &#8712; ]-1, 0[, 1 + 3y + 2y² = 0 <br />
+                            <br />
+                            or (-1)² + 3(-1) + 2 = 0 <br />
+                            <br />
+                            or
+                            ∃x&#8712; ]-1, 1[, x² + 3x + 2 = 0 <br />
+                            <br />
+                            or (1)² + 3
+                            + 2 = 0 <br />
+                            <br />
+                            or ∃y &#8712; ]0, 1[, 1 + 3y + 2y² = 0</span>.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
